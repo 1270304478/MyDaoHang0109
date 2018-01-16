@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="#4F5053"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="17sp"
+        android:text="aa"
+        android:id="@+id/fenlei_right_recybig_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:padding="30dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:id="@+id/fenlei_right_recybig_recyview"
+        android:layout_width="500dp"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

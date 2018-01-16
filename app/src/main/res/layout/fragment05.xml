@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="#A6A8AA"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:src="@drawable/z4"/>
+            <Button
+                android:id="@+id/but_paizhao"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="拍照"/>
+            <Button
+                android:id="@+id/but_xuanqu"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="相册"/>
+            <TextView
+                android:clickable="true"
+                android:textSize="20sp"
+                android:id="@+id/text_login"
+                android:layout_marginTop="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="登录/注册"/>
+            <LinearLayout
+                android:id="@+id/back"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/aak"/>
+                <TextView
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="0"
+                    android:layout_marginLeft="10dp"
+                    android:text="退出设置"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/top"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bottom"/>
+        <GridView
+            android:numColumns="2"
+            android:id="@+id/gridview02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </GridView>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
